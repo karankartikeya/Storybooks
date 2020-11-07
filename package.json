@@ -7,12 +7,12 @@
     "start": "cross-env NODE_ENV=production node app",
     "dev": "cross-env NODE_ENV=development nodemon app",
     "postinstall": "node ./scripts/post-install.js"
-    "heroku-postbuild": "node app.js"
   },
   "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
     "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
