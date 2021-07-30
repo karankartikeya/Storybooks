@@ -8,7 +8,7 @@
     "dev": "cross-env NODE_ENV=development nodemon app",
     "postinstall": "node ./scripts/post-install.js"
   },
-  "author": "Karan Kartikeya",
+  "author": "Shivansh Sinha",
   "license": "MIT",
   "dependencies": {
     "connect-mongo": "^3.2.0",
